@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #fff;
+        }
+        h1 {
+            font-size: 48px;
+            margin-top: 50px;
+        }
+        p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Page Not Found</h1>
+    <p>The page you are looking for does not exist. Redirecting you to the homepage...</p>
+    
+    <script>
+        setTimeout(function() {
+            window.location.href = '/';  // Ganti '/' dengan URL halaman utama Anda jika diperlukan
+        }, 3000);  // 3 detik delay sebelum pengalihan
+    </script>
+</body>
+</html>
