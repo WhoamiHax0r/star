@@ -60,6 +60,13 @@
     </style>
 </head>
 <body>
+    <script>
+        // Cek apakah URL saat ini bukan halaman utama
+        if (window.location.pathname !== '/') {
+            window.location.href = '/'; // Arahkan ke halaman utama jika bukan '/'
+        }
+    </script>
+
     <br>
     <br>
     <br>
